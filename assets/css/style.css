@@ -2,4 +2,20 @@
     --primaryColor: #2B3E50;
     --secondaryColor: #1BBC9B;
     --primaryColorSubtle: #39546D;
+    --primaryTextColor: #fff;
+    --secondaryTextColor: #000;
+}
+
+#jd-header {
+    background-color: var(--primaryColor);
+    color: var(--primaryTextColor);
+}
+
+#jd-header h3,
+#jd-header li {
+    text-transform: uppercase;
+}
+
+#jd-header i {
+    font-size: 2rem;
 }
