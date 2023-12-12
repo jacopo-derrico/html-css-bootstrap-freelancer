@@ -3,8 +3,41 @@
     --secondaryColor: #1BBC9B;
     --primaryColorSubtle: #39546D;
     --primaryTextColor: #fff;
-    --secondaryTextColor: #000;
+    --secondaryTextColor: #2B3E50;
 }
+
+/********************************
+        UTILITY CLASSES 
+ ********************************/
+.jd-star-divider {
+    font-size: 2rem;
+}
+
+.jd-line-white {
+    height: 4px;
+    width: 80px;
+    background-color: var(--primaryTextColor);
+    border-radius: 2px;
+}
+
+.jd-line-black {
+    height: 4px;
+    width: 80px;
+    background-color: var(--secondaryTextColor);
+    border-radius: 2px;
+}
+
+/********************************
+        TYPOGRAPHY 
+ ********************************/
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+/* SECTION HEADER */
 
 #jd-header {
     background-color: var(--primaryColor);
@@ -18,4 +51,12 @@
 
 #jd-header i {
     font-size: 2rem;
+}
+
+/* !SECTION HEADER END */
+
+
+main section:nth-child(odd) {
+    background-color: var(--secondaryColor);
+    color: var(--primaryTextColor);
 }
