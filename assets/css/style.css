@@ -64,3 +64,12 @@ main section:nth-child(odd) {
     background-color: var(--secondaryColor);
     color: var(--primaryTextColor);
 }
+
+.jd-message {
+    margin-top: 100px;
+}
+
+.jd-btn-send {
+    background-color: var(--secondaryColor);
+    color: var(--primaryTextColor);
+}
