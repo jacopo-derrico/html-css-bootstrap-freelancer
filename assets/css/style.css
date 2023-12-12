@@ -37,6 +37,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
 /* SECTION HEADER */
 
 #jd-header {
