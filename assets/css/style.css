@@ -48,13 +48,16 @@ h3 {
     color: var(--primaryTextColor);
 }
 
-#jd-header h3,
-#jd-header li {
-    text-transform: uppercase;
+.navbar-brand {
+    color: var(--primaryTextColor);
 }
 
-#jd-header i {
-    font-size: 2rem;
+.nav-link {
+    color: var(--primaryTextColor);
+}
+
+.navbar-toggler {
+    color: var(--primaryTextColor);
 }
 
 /* !SECTION HEADER END */
