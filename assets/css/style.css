@@ -78,6 +78,7 @@ main section:nth-child(odd) {
 .jd-btn-send {
     background-color: var(--secondaryColor);
     color: var(--primaryTextColor);
+    width: 20%;
 }
 
 footer {
