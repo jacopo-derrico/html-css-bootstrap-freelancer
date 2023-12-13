@@ -58,7 +58,10 @@ h3 {
 
 .navbar-toggler {
     color: var(--primaryTextColor);
+    border: 1px solid var(--primaryTextColor);
 }
+
+
 
 /* !SECTION HEADER END */
 
